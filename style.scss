@@ -1,0 +1,30 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+$primary-color: #151817;
+$secondary-color: #ffffff;
+$decoration-color: rgb(153, 153, 153);
+
+body {
+   background-color: $primary-color;
+}
+
+header {
+   border-bottom: 1px solid $decoration-color;
+
+   .header_data {
+      width: 1200px;
+      margin: auto;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      img {
+         width: 100px;
+      }
+   }
+}
