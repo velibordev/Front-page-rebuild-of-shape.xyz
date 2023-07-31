@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
 }
 
 body {
@@ -9,16 +11,143 @@ body {
 }
 
 header {
-  border-bottom: 1px solid rgb(153, 153, 153);
+  border-bottom: 1px solid rgb(73, 73, 73);
 }
 header .header_data {
   width: 1200px;
   margin: auto;
-  padding: 20px;
+  padding: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 header .header_data img {
   width: 100px;
+  cursor: pointer;
+}
+header .header_data .header_buttons button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+header .header_data .header_buttons button:hover {
+  background-color: rgb(73, 73, 73);
+}
+header .header_data .header_buttons button:nth-child(2) {
+  border: 1px solid rgb(73, 73, 73);
+}
+
+.data_query_div {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.data_query_div .data_query_div_p1 h1 {
+  color: #ffffff;
+  font-size: 5rem;
+  line-height: 4.5rem;
+  font-weight: lighter;
+}
+.data_query_div .data_query_div_p1 p {
+  margin-top: 50px;
+  color: rgb(73, 73, 73);
+  font-size: 1.3rem;
+}
+.data_query_div .data_query_div_p1 button {
+  padding: 15px 40px 15px 40px;
+  margin-top: 50px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.data_query_div .data_query_div_p1 button:hover {
+  background-color: #ffffff;
+  color: #151817;
+}
+.data_query_div .data_query_div_p2 img {
+  border-radius: 20px;
+  border: 1px solid rgb(73, 73, 73);
+}
+
+.apps {
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+.apps .apps_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.apps .apps_div div {
+  width: 480px;
+}
+.apps .apps_div div img {
+  width: 60px;
+}
+.apps .apps_div div h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+.apps .apps_div div p {
+  color: rgb(73, 73, 73);
+  width: 40ch;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+footer {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+footer .footer_backed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer_backed img {
+  width: 30px;
+}
+footer .footer_backed p {
+  margin-left: 10px;
+  color: rgb(73, 73, 73);
+}
+footer .footer_data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer_data p:nth-child(1) {
+  margin-right: 20px;
+  color: rgb(73, 73, 73);
+}
+footer .footer_data p:nth-child(2) {
+  margin-right: 20px;
+  color: #ffffff;
+}
+footer .footer_data img {
+  width: 30px;
 }/*# sourceMappingURL=style.css.map */
