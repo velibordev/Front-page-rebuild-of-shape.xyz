@@ -12,12 +12,16 @@ body {
 }
 
 header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #151817;
   border-bottom: 1px solid rgb(73, 73, 73);
 }
 header .header_data {
   width: 1200px;
   margin: auto;
-  padding: 30px;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
